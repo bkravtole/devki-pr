@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Playfair+Display&display=swap');
+
+body {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background-image:  url(bgm.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.nav {
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px
+}
+
+.logo {
+    color: rgb(25, 203, 203);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu {
+    height: 70px;
+    width: 400px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(25, 203, 203);
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Playfair Display', serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(25, 203, 203);
+    margin-top: 13px;
+    font-size: 16px;
+    float: left;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: rgb(25, 203, 203);
+    border: 2px solid rgb(25, 203, 203);
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    color: white;
+    height: auto;
+    margin-left: 40px;
+    width: 1000px;
+    position: relative;
+}
+
+.content .pera {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 35px;
+    letter-spacing: 2px;
+
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: rgb(25, 203, 203);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    transition: .4s ease-in;
+}
+
+.cn:hover {
+    background: white;
+}
+
+.content span {
+    color: rgb(25, 203, 203);
+    font-size: 60px;
+}
+
+.form {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(26, 45, 64);
+}
+
+.form h2 {
+    width: 220px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: rgb(25, 203, 203);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(25, 203, 203);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.form input:focus {
+    outline: none;
+
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: rgb(25, 203, 203);
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    font-family: 'Playfair Display', serif;
+   
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: aquamarine;
+}
+.btnn:hover a{
+    color: rgb(25, 203, 203);
+}
+.link{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.link a{
+    text-decoration: none;
+    color:rgb(25, 203, 203) ;
+   
+   
+}
